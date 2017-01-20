@@ -1,0 +1,155 @@
+[Localization]
+Localization=zh-Chinese
+Translator=chonghua
+TranslatorURL=http://hechonghua.com
+TranslatorEmail=hechonghua@msn.com
+
+[frmMain]
+; UI > Navigation Controls
+cmdHome=复制
+cmdCustom=自定义
+cmdOptions=选项
+cmdAbout=入门
+cmdPurchaseNow=捐助
+
+; UI > Top Controls
+lblAppName(0)=复制 | 点击这里访问 CloneApp 的网站  www.mirinsoft.com
+lblAppName(1)=A | 点击这里访问 CloneApp 的网站 www.mirinsoft.com
+lblAppName(2)=pp | 点击这里访问 CloneApp 的网站 www.mirinsoft.com
+cmdThemeModeNight=夜间模式
+cmdThemeModeDay=白天模式
+lblArchitecture=您正在32位系统下工作
+lblArchitecture64=您正在64位系统下工作
+lblIsUserAnAdmin=完整的备份需要管理员权限.请以管理员权限重启 CloneApp.
+
+; Clone tab
+lblHeaderClone=信息
+cmdShowApps=支持的
+cmdShowAppsInstalled=已安装的
+cmdBackup=开始克隆应用
+cmdRestore=恢复
+cmdPreview=什么内容被备份?
+cmdPlugUpdate=编辑
+cmdPlugSave=保存
+cmdPlugSaveNew=另存为新插件
+lblPlugNameSelected=未选择应用
+lblPlugName=应用
+lblPlugAuthor=作者
+lblPlugDesc=详情
+lblBackupFile=文件
+lblBackupFolder=文件夹
+lblBackupRegKey=注册表
+lblRunCommand=命令
+lblPlugsSelect=全选
+lblPlugsSelectInstalled=选择已安装
+lblPlugsSelectProgress=正在删除 ...
+lblPlugImport=导入插件
+lblPlugsInstalled=已安装插件:
+lblPlugsSelected=已选插件:
+lblAppsInstalled=已安装应用: 
+lblExportInstalledApps=导出应用到文本文件
+lblProgress=正在加载 ... 请稍后.
+
+; Clone tab > Apps Context-Menu
+mnuPreviewPlug=预览
+mnuBackupPlug=备份
+mnuRestorePlug=恢复
+mnuSelectAll=全选
+mnuDeselectAll=取消全选
+mnuListPlugs=列出所选
+mnuSend=发送
+mnuSendOutlook=Outlook
+mnuCopy=复制
+mnuCopyTitle=标题
+mnuCopyDesc=说明
+mnuCopyAuthor=作者
+mnuShare=分享
+mnuShareFacebook=Facebook
+mnuShareTwitter=Twitter
+mnuShareFriends=朋友
+mnuAdvanced=高级
+mnuBackupPlugs=备份插件
+mnuExportPlugs=导出插件到文本文件
+
+; Clone tab > Status Context-Menu
+mnuClearLog=清理日志
+mnuCopyLogSelected=复制所选
+mnuCopyLogAll=全部复制
+mnuSaveLog=保存
+mnuSaveAsLog=另存为 ...
+
+; Custom tab
+lblHeaderCustom=自定义
+lblHeaderCustomFile=自定义文件到备份 例如 C:\Users\%Username%\My File.txt (支持通配符)
+lblHeaderCustomFolder=自定义文件夹到备份 例如 C:\Users\%Username%\My Folder (支持通配符)
+lblHeaderCustomRegKey=自定义注册表键值到备份 例如 HKEY_CURRENT_USER\Software\My Software
+lblHeaderCustomCommand=自定义命令到运行 例如 netsh advfirewall export "WindowsFirewallSettings.wfw"
+cmdAppsCustom(0)=文件
+cmdAppsCustom(1)=文件夹
+cmdAppsCustom(2)=注册表键
+cmdAppsCustom(3)=命令
+cmdAppsCustomBrowse=浏览
+cmdAppsCustomAdd=添加
+cmdAppsCustomEdit=编辑
+cmdAppsCustomRemove=移除
+cmdBackupCustom=开始备份
+cmdRestoreCustom=恢复
+
+; Options tab
+lblHeaderOptions=选项
+lblClonePath=克隆路径
+lblClonePathVariableDir=变量
+lblClonePathUserProfileDir=用户配置
+lblClonePathDefaultDir=默认
+lblClonePathOpen=打开文件夹
+lblLogPath=日志路径
+lblEditorPath=编辑器路径
+lblEditorPathDefault=默认
+lbl7zCompression=7z 压缩
+lbl7zCompression1=启用 7z 压缩
+lblCompression=压缩
+lblDecompression=解压缩
+lblCloneMode=克隆模式
+lblCloneMode0=在指定文件夹克隆应用
+lblCloneMode1=在同一文件夹克隆应用
+lblConfirmationMode=确认模式
+lblConfirmationMode0=所有克隆冲突静默回应
+lblConfirmationMode1=克隆冲突时显示对话框
+lblLocalizationImport=导入本地化
+lblLocalizationRemove=移除本地化
+cmdBrowseOptions(0)=浏览
+cmdBrowseOptions(1)=浏览
+cmdBrowseOptions(2)=浏览
+cmdBrowseOptions(3)=浏览
+
+; Get started tab
+cmdCheckSoftwareUpdates=检查更新
+txtAbout=您可以下载最近的更新, 到下方的网站报告问题和提交功能需求.
+lblSocialMedia=在社交网络关注我们
+lblResources=资源
+lblDocs=查看在线文档
+lblChangelog=查看最近更新日志
+lblCommunity=访问 CloneApp 社区论坛
+lblPlugs=获取插件
+lblPlugExample=查看支持的插件命令
+lblDLPlugs=下载官方插件
+lblDLExternalPlugs=下载外部插件
+lblDLPlugsCommunity=下载社区插件
+lblSuggestPlug=为 CloneApp 建议一个新插件
+lblCLI=命令行选项
+lblCLIOptions=显示可用的开关选项
+
+; Contribute tab
+lblContribute(0)=为何需要捐赠? 如果您是 CloneApp 的受益者, 请考参与到此项目. 您可能知道, 开发一个程序需要很多金钱和资源. 我需要您帮助它保持免费, 无广告以及使 CloneApp 变得更完善 . 非常感谢所有参与和帮助过 CloneApp 的人们.
+lblContribute(1)=捐赠原因:
+lblContribute(2)=金额
+lblDonations=本月捐赠总额 (美元)
+lblDonationsRefresh=刷新
+txtPayment=支持 CloneApp 开发
+cmdPurchaseWish=许愿
+cmdPurchase=现在捐助
+
+[frmCLI]
+lblHeaderCLI=CloneApp - 命令行
+lblCLI=运行命令行选项
+lblStatus=请稍后.
